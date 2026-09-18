@@ -1,0 +1,5 @@
+| No. | Procedural Version Problem                                                             | OOP Version Solution                                                                              |
+| --- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1   | Task aur status ko separate arrays mein manage karna padta hai.                        | `Task` class mein `title` aur `isDone` ek hi object mein store hote hain.                         |
+| 2   | Global data ko program ke different parts se directly access/change kiya ja sakta hai. | OOP mein data ko class ke andar rakhkar methods ke through manage kar sakte hain.                 |
+| 3   | Tasks ko add, update aur display karne ke liye code scattered ho sakta hai.            | `addTask()`, `markTaskDone()` aur `showTasks()` methods se task management organized ho jata hai. |
